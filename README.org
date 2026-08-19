@@ -1,0 +1,20 @@
+* TOON-CL (Work in Progress)
+
+Common Lisp implementation of TOON (Token-Oriented Object Notation)
+
+** Problem Statement (Why are we doing this?)
+
+Every word and symbol sent to an AI model costs money and slows down
+response times. Common formats such as JSON, are verbose and require
+special syntax (e.g. curly brackets {} or quotes "") that drive up the
+cost bill.
+
+How can we optimize token usage and lower the cost of model usage
+while maintaining (or improving) output quality?
+
+** TOON (A Solution)
+
+*TOON* is a human-readable encoding of the JSON data model that
+minimizes tokens and makes structure easy for models to follow.
+
+In-depth information can be found [[https://toonformat.dev/guide/getting-started.html][here]].
